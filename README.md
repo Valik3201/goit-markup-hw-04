@@ -1,4 +1,4 @@
-# Web Studio Project - HTML, CSS, and Icon Styling
+# Web Studio - HTML, CSS, and Icon Styling
 
 Welcome to the continued development of the Web Studio project! In this part of the project, the focus will be on enhancing the graphic design and layout of the web pages. The key additions to the project will include the integration of HTML tags and the styling of icons, along with decorative effects. The details of what this portion of the project contains are as follows:
 
