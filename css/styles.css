@@ -24,10 +24,12 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1440px;
+  margin: 0 auto;
   padding: 188px 0;
 }
 
-.goals-section {
+.benefits-section {
   padding: 120px 0;
 }
 
@@ -75,12 +77,12 @@ h2 {
   padding: 0 15px;
 }
 
-.goal-item-section {
+.benefit-item-section {
   display: flex;
   gap: 24px;
 }
 
-.goals li {
+.benefits li {
   width: calc((100% - 72px) / 4);
 }
 
@@ -205,6 +207,8 @@ h2 {
   padding: 24px 0;
 }
 
+.nav-items a:hover,
+.nav-items a:focus,
 .nav-items a:active {
   color: var(--ocean, #404bbf);
 }
@@ -215,7 +219,7 @@ a.main-link {
 
 .project-card-link {
   text-decoration: none;
-  cursor: default;
+  cursor: pointer;
 }
 
 .contacts-items {
@@ -398,4 +402,26 @@ a.main-link {
   padding: 32px 16px 32px;
   border: 1px solid var(--cornflower, #e7e9fc);
   border-top: none;
+}
+
+.project-card-item:hover,
+.project-card-item:focus {
+  background: var(--white, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+/* Icon SVG */
+
+.benefit-icon div {
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  background: var(--cloud, #f4f4fd);
+  margin-bottom: 8px;
+}
+
+.benefit-icon svg {
+  margin: 24px 100px;
 }
