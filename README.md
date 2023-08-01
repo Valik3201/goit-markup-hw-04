@@ -15,7 +15,7 @@ Welcome to the continued development of the Web Studio project! In this part of 
 - Icons in the SVG sprite are correctly exported, selecting the "group" rather than the individual vector during the export process.
 - Icons from the SVG sprite are added to the HTML using the `<svg>` and `<use>` tags.
 - Icons have been strategically added to various sections of the website:
-  - In the "Our assets" section.
+  - In the "Our Assets" section.
   - In the "Our Team" section for social media links.
   - In the "Customers" section for company icons.
   - In the footer for social media icons.
