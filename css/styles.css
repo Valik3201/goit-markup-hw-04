@@ -272,6 +272,7 @@ a.main-link {
   line-height: 1.07em; /* 107.143% */
   letter-spacing: 1.12px;
   max-width: 496px;
+  margin: 0 auto 48px;
 }
 
 .heading-sub {
